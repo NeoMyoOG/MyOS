@@ -1,0 +1,50 @@
+[2d82f9e1-ba3f-4ab2-a75a-8c3a5bb1dbe1]
+Description=Application settings for VNyan
+clientmachine=localhost
+desktops=ec2fd660-ce41-4325-9e60-a5598277e4d6
+desktopsrule=3
+opacityinactiverule=2
+wmclass=steam_proton
+wmclassmatch=1
+
+[6a09687a-3878-4e8d-9f6a-37d5b5106088]
+Description=Application settings for vesktop
+clientmachine=localhost
+desktops=e5701a0e-a4da-4e26-8c4c-fb0b184f4d7b
+desktopsrule=2
+wmclass=vesktop
+wmclassmatch=1
+
+[6ea65217-1f30-470b-b1ce-1febeee5d072]
+Description=Application settings for steam
+desktops=dfde8f71-9445-417e-a9b1-6944d88b4a36
+desktopsrule=2
+wmclass=steam
+wmclassmatch=1
+
+[General]
+count=6
+rules=2d82f9e1-ba3f-4ab2-a75a-8c3a5bb1dbe1,ab3e2c0b-766b-4a04-a2f8-5f29b9f64541,f3b028f4-eca5-4d6e-a5c3-a12a9de2e3ca,6a09687a-3878-4e8d-9f6a-37d5b5106088,ecdb79f8-2bc9-4f24-ac4b-6d7f89321f62,6ea65217-1f30-470b-b1ce-1febeee5d072
+
+[ab3e2c0b-766b-4a04-a2f8-5f29b9f64541]
+Description=Application settings for com.obsproject.Studio
+desktops=6c555538-9625-4a96-81e8-e652f6e388cb
+desktopsrule=3
+wmclass=\scom.obsproject.Studio
+wmclasscomplete=true
+wmclassmatch=1
+
+[ecdb79f8-2bc9-4f24-ac4b-6d7f89321f62]
+Description=Transparency
+opacityactiverule=2
+opacityinactive=90
+opacityinactiverule=2
+
+[f3b028f4-eca5-4d6e-a5c3-a12a9de2e3ca]
+Description=Application settings for zen
+desktops=e3a4a073-3b89-40eb-abfa-9853de75c595
+desktopsrule=3
+opacityinactiverule=2
+wmclass=\szen
+wmclasscomplete=true
+wmclassmatch=1
