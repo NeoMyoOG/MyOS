@@ -119,19 +119,27 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [DirSelect Dialog]
-DirSelectDialog Size=669,726
+DirSelectDialog Size=709,768
+History Items[$e]=file:$HOME/Documents/GitHub/MyOS,file:$HOME/Music,file:$HOME
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
 ColorSchemeHash=1e791a601596b04821e81de9e9f6f2c50005d730
 TerminalApplication=kitty
 TerminalService=kitty.desktop
+XftHintStyle=hintslight
+XftSubPixel=rgb
+fixed=NotoSansM Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=NotoSans Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=NotoSans Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=NotoSans Nerd Font,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=NotoSans Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
 Theme=Tela-purple-dark
 
 [KDE]
-LookAndFeelPackage=org.kde.breezedark.desktop
+LookAndFeelPackage=Catppuccin-Mocha-Mauve
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -150,19 +158,17 @@ Sort by=Name
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
-Speedbar Width=140
+Speedbar Width=147
 View Style=DetailTree
 
 [PreviewSettings]
 EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=0
 
-[Shortcuts]
-Quit=Meta+Q; Ctrl+Q
-
 [WM]
 activeBackground=30,30,46
 activeBlend=205,214,244
+activeFont=NotoSans Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeForeground=205,214,244
 inactiveBackground=17,17,27
 inactiveBlend=166,173,200

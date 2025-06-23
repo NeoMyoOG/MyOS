@@ -1,5 +1,5 @@
 [Activities][LastVirtualDesktop]
-e1efa0a9-f03d-4b17-a85c-0e0ef607e01d=e5701a0e-a4da-4e26-8c4c-fb0b184f4d7b
+e1efa0a9-f03d-4b17-a85c-0e0ef607e01d=dfde8f71-9445-417e-a9b1-6944d88b4a36
 
 [Desktops]
 Id_1=e5701a0e-a4da-4e26-8c4c-fb0b184f4d7b
@@ -26,6 +26,24 @@ fadedesktopEnabled=true
 krohnkiteEnabled=true
 slideEnabled=false
 
+[Round-Corners]
+ActiveOutlineAlpha=255
+ActiveOutlineUseCustom=false
+ActiveOutlineUsePalette=true
+ActiveSecondOutlineUseCustom=false
+ActiveSecondOutlineUsePalette=true
+DisableOutlineTile=false
+DisableRoundTile=false
+InactiveOutlineAlpha=255
+InactiveOutlineThickness=3
+InactiveOutlineUseCustom=false
+InactiveOutlineUsePalette=true
+InactiveSecondOutlineThickness=0
+InactiveSecondOutlineUseCustom=false
+InactiveSecondOutlineUsePalette=true
+OutlineThickness=3
+SecondOutlineThickness=0
+
 [Script-krohnkite]
 screenGapBetween=10
 screenGapBottom=25
@@ -39,6 +57,21 @@ padding=4
 [Tiling][388a132e-a84f-5538-b20f-ee852c5b159d]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][6c555538-9625-4a96-81e8-e652f6e388cb][305973d0-00c9-422b-b206-3aafb89d9da4]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][dfde8f71-9445-417e-a9b1-6944d88b4a36][305973d0-00c9-422b-b206-3aafb89d9da4]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e3a4a073-3b89-40eb-abfa-9853de75c595][305973d0-00c9-422b-b206-3aafb89d9da4]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e5701a0e-a4da-4e26-8c4c-fb0b184f4d7b][305973d0-00c9-422b-b206-3aafb89d9da4]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][ec2fd660-ce41-4325-9e60-a5598277e4d6][305973d0-00c9-422b-b206-3aafb89d9da4]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows]
 FocusPolicy=FocusFollowsMouse
 FocusStealingPreventionLevel=2
@@ -48,7 +81,8 @@ RollOverDesktops=true
 Scale=1.1
 
 [org.kde.kdecoration2]
-BorderSize=Large
+BorderSize=None
 BorderSizeAuto=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Alba.P6
+ButtonsOnLeft=M
+library=org.kde.breeze
+theme=Breeze

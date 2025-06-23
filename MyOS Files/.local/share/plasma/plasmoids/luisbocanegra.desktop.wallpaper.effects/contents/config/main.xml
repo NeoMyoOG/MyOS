@@ -139,6 +139,9 @@
     <entry name="animationDuration" type="Int">
       <default>300</default>
     </entry>
+    <entry name="animationOutDuration" type="Int">
+      <default>300</default>
+    </entry>
     <entry name="shadowBlur" type="Double">
       <default>0.5</default>
     </entry>
@@ -156,6 +159,9 @@
       <default>False</default>
     </entry>
     <entry name="grainAnimate" type="Bool">
+      <default>False</default>
+    </entry>
+    <entry name="grainAnimateChange" type="Bool">
       <default>False</default>
     </entry>
     <entry name="grainAmount" type="Double">
