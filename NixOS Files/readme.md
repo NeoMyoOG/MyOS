@@ -1,4 +1,4 @@
-#   MoriNUX KDE
+#   MyOS KDE
 Base:              - Arch Linux
 
 Kernel:            - Linux-Zen
@@ -14,7 +14,7 @@ App Style:          Breeze
 
 App Style GTK:      Breeze 
 
-Plasma Style:       Fluent Round
+Plasma Style:       Utterly Round
 
 Colors:             Catppuccin Mocha Mauve
 ```
@@ -22,7 +22,7 @@ git clone --depth=1 https://github.com/catppuccin/kde catppuccin-kde && cd catpp
 ./install.sh
 ```
 
-Window decorations: Alba P6 
+Window decorations: Breeze 
 
 Fonts:
     
@@ -67,7 +67,7 @@ File Archiver:      Ark
 
 Terminal emulator:  Kitty
 
-Text Editor:        Kate
+Text Editor:        Kate / nano
 
 Office:             LibreOffice
 
@@ -75,17 +75,16 @@ PDF:                Okular
 
 Image Viewer:       GwenView
 
-Music:              Elisa
+Music:              RecordBox
 
 Video:              Haruna
 
 Map:                Google Maps
 
 #   Widgets
--PlasMusic
--Minimalist Clock
+
+-Redmi Clock
 -Ginti
--Start next menu
 
 #               Build
 
@@ -102,5 +101,5 @@ paru -R htop vim
 
 #   flatpak
 ```
-flatpak install flathub com.github.tchx84.Flatseal com.usebottles.bottles
+flatpak install flathub com.github.tchx84.Flatseal com.usebottles.bottles ca.edestcroix.Recordbox chat.revolt.RevoltDesktop com.obsproject.Studio com.obsproject.Studio.Plugin.AitumMultistream com.obsproject.Studio.Plugin.GStreamerVaapi com.obsproject.Studio.Plugin.Gstreamer com.obsproject.Studio.Plugin.OBSVkCapture dev.vencord.Vesktop org.kde.kalk org.kde.isoimagewriter org.prismlauncher.PrismLauncher org.qbittorrent.qBittorrent
 ```
