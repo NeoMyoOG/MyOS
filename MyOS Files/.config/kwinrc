@@ -1,5 +1,5 @@
 [Activities][LastVirtualDesktop]
-e1efa0a9-f03d-4b17-a85c-0e0ef607e01d=dfde8f71-9445-417e-a9b1-6944d88b4a36
+e1efa0a9-f03d-4b17-a85c-0e0ef607e01d=e5701a0e-a4da-4e26-8c4c-fb0b184f4d7b
 
 [Desktops]
 Id_1=e5701a0e-a4da-4e26-8c4c-fb0b184f4d7b
@@ -32,7 +32,9 @@ ActiveOutlineUseCustom=false
 ActiveOutlineUsePalette=true
 ActiveSecondOutlineUseCustom=false
 ActiveSecondOutlineUsePalette=true
+DisableOutlineMaximize=false
 DisableOutlineTile=false
+DisableRoundMaximize=false
 DisableRoundTile=false
 InactiveOutlineAlpha=255
 InactiveOutlineThickness=3
@@ -81,7 +83,7 @@ RollOverDesktops=true
 Scale=1.1
 
 [org.kde.kdecoration2]
-BorderSize=None
+BorderSize=VeryLarge
 BorderSizeAuto=false
 ButtonsOnLeft=M
 library=org.kde.breeze

@@ -119,11 +119,12 @@ ForegroundPositive=166, 227, 161
 ForegroundVisited=203, 166, 247
 
 [DirSelect Dialog]
-DirSelectDialog Size=709,768
-History Items[$e]=file:$HOME/Documents/GitHub/MyOS,file:$HOME/Music,file:$HOME
+DirSelectDialog Size=667,734
+History Items[$e]=file:$HOME/Apps/heroic/themes,file:$HOME/Apps/heroic,file:$HOME/Documents/GitHub/MyOS,file:$HOME/Music,file:$HOME
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
+ColorScheme=CatppuccinMochaMauve
 ColorSchemeHash=1e791a601596b04821e81de9e9f6f2c50005d730
 TerminalApplication=kitty
 TerminalService=kitty.desktop
