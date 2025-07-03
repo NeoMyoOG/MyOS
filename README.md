@@ -15,8 +15,11 @@ Shell:             - zsh
 
 DE:                - KDE Plasma
 
-![screenshot](Resources/myos-mocha.png)
-![screenshot](Resources/myos-latte.png)
+> [Catppuccin Mocha Mauve]
+>![screenshot](Resources/myos-mocha.png)
+
+> [Catppuccin Latte Mauve]
+>![screenshot](Resources/myos-latte.png)
 
 #   Appearance
 
