@@ -1,5 +1,5 @@
 [Activities][LastVirtualDesktop]
-e1efa0a9-f03d-4b17-a85c-0e0ef607e01d=e5701a0e-a4da-4e26-8c4c-fb0b184f4d7b
+e1efa0a9-f03d-4b17-a85c-0e0ef607e01d=dfde8f71-9445-417e-a9b1-6944d88b4a36
 
 [Desktops]
 Id_1=e5701a0e-a4da-4e26-8c4c-fb0b184f4d7b
@@ -10,8 +10,8 @@ Id_5=ec2fd660-ce41-4325-9e60-a5598277e4d6
 Name_1=Chat
 Name_2=Web
 Name_3=Game
-Name_4=OBS
-Name_5=Avatar
+Name_4=Stream
+Name_5=Others
 Number=5
 Rows=5
 
@@ -36,15 +36,20 @@ DisableOutlineMaximize=false
 DisableOutlineTile=false
 DisableRoundMaximize=false
 DisableRoundTile=false
+InactiveCornerRadius=15
 InactiveOutlineAlpha=255
-InactiveOutlineThickness=3
+InactiveOutlineThickness=2.5
 InactiveOutlineUseCustom=false
 InactiveOutlineUsePalette=true
 InactiveSecondOutlineThickness=0
 InactiveSecondOutlineUseCustom=false
 InactiveSecondOutlineUsePalette=true
-OutlineThickness=3
+InactiveShadowSize=0
+OutlineThickness=2.5
 SecondOutlineThickness=0
+ShadowSize=0
+Size=15
+UseNativeDecorationShadows=false
 
 [Script-krohnkite]
 screenGapBetween=10
@@ -75,16 +80,18 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
+BorderSnapZone=0
 FocusPolicy=FocusFollowsMouse
 FocusStealingPreventionLevel=2
 RollOverDesktops=true
+WindowSnapZone=0
 
 [Xwayland]
 Scale=1.1
 
 [org.kde.kdecoration2]
-BorderSize=VeryLarge
-BorderSizeAuto=false
-ButtonsOnLeft=M
+ButtonsOnLeft=I
+ButtonsOnRight=X
+ShowToolTips=false
 library=org.kde.breeze
 theme=Breeze
