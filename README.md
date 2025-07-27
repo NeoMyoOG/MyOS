@@ -26,7 +26,7 @@ DE:                - KDE Plasma
 
 App Style:          Breeze 
 
-App Style GTK:      Breeze 
+App Style GTK:      Catpuccin-Mocha-Standard 
 
 Plasma Style:       Utterly Round
 
@@ -36,7 +36,7 @@ git clone --depth=1 https://github.com/catppuccin/kde catppuccin-kde && cd catpp
 ./install.sh
 ```
 
-Window decorations: Breeze 
+Window decorations: Breeze (Dissabled)
 
 Fonts:
     
@@ -87,7 +87,7 @@ PDF:                Okular
 
 Image Viewer:       GwenView
 
-Music:              RecordBox
+Music:              Elisa
 
 Video:              Haruna
 
@@ -107,13 +107,14 @@ Map:                Google Maps
     - git clone https://aur.archlinux.org/paru-bin.git
     - cd paru-bin/
     - makepkg -si
+paru -Syu
 
-paru -S --needed base-devel brave-bin btop curl discover e2fsprogs elisa fakeroot fastfetch ffmpeg ffmpeg4 flatpak gimp gst-plugin-pipewire gst-plugins-bad gst-plugins-bad-libs gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly gstreamer gwenview gzip haruna isoimagewriter kalk kitty linux-zen linux-zen-headers nano noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g onlyoffice-bin partitionmanager pipewire-alsa pipewire-jack pipewire-pulse protonplus qbittorrent spectacle steam unrar unzip wget wireplumber yt-dlp zen-browser-bin zsh
+paru -S --needed base-devel brave-bin btop curl discover e2fsprogs elisa fakeroot fastfetch ffmpeg ffmpeg4 flatpak gimp gst-plugin-pipewire gst-plugins-bad gst-plugins-bad-libs gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly gstreamer gwenview gzip haruna isoimagewriter kalk kitty ktorrent linux-zen linux-zen-headers nano noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g onlyoffice-bin partitionmanager pipewire-alsa pipewire-jack pipewire-pulse protonplus qemu-full spectacle steam unrar unzip virt-manager wget wireplumber yt-dlp zen-browser-bin zsh
 
 paru -R htop #vim
 ```
 
 #   flatpak
 ```
-flatpak install flathub com.github.tchx84.Flatseal com.usebottles.bottles ca.edestcroix.Recordbox com.obsproject.Studio com.obsproject.Studio.Plugin.AitumMultistream com.obsproject.Studio.Plugin.GStreamerVaapi com.obsproject.Studio.Plugin.Gstreamer com.obsproject.Studio.Plugin.OBSVkCapture dev.vencord.Vesktop org.prismlauncher.PrismLauncher
+flatpak install flathub com.github.tchx84.Flatseal com.usebottles.bottles com.obsproject.Studio com.obsproject.Studio.Plugin.AitumMultistream com.obsproject.Studio.Plugin.GStreamerVaapi com.obsproject.Studio.Plugin.Gstreamer com.obsproject.Studio.Plugin.OBSVkCapture dev.vencord.Vesktop org.prismlauncher.PrismLauncher
 ```
