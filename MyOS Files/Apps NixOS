@@ -1,0 +1,31 @@
+      kdePackages.audiotube
+      bottles
+      brave
+      curl
+      discord
+      kdePackages.elisa
+      kdePackages.falkon
+      gimp
+      git
+      gradia
+      kdePackages.kate
+      pkgs.haruna
+      kdePackages.isoimagewriter
+      kdePackages.partitionmanager
+      kdePackages.kdenlive
+      kitty
+      krita
+      kdePackages.ktorrent
+      obs-studio
+      # Plugins for OBS v
+      obs-studio-plugins.obs-vkcapture
+      obs-studio-plugins.obs-vaapi
+      obs-studio-plugins.obs-pipewire-audio-capture
+      obs-studio-plugins.obs-gstreamer
+      # Plugins for OBS ^
+      onlyoffice-desktopeditors
+      prismlauncher
+      protonplus
+      steam
+      vesktop
+      wget
