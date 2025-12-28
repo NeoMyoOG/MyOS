@@ -9,7 +9,7 @@
 
 Base:              - Arch Linux
 
-Kernel:            - Linux-Zen
+Kernel:            - Linux
 
 Shell:             - zsh
 
@@ -99,22 +99,25 @@ Map:                Google Maps
 -Ginti
 -Wallpaper Effects
 -Panel Colorizer
+-Plasmusic Toolbar
 
 #               Build
 
 #   Pacman
 ```
+sudo pacman -S --needed ark audiotube base-devel btop curl deskflow discord e2fsprogs elisa fakeroot fastfetch ffmpeg ffmpeg4.4 flatpak gimp gst-plugin-pipewire gst-plugins-bad gst-plugins-bad-libs gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly gstreamer gwenview haruna isoimagewriter kalk kdenlive kitty ktorrent krita linux-headers nano noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g okular partitionmanager pipewire-alsa pipewire-jack pipewire-pulse qemu-full spectacle steam unrar unzip virt-manager wget wireplumber yt-dlp zsh
+
     - git clone https://aur.archlinux.org/paru-bin.git
     - cd paru-bin/
     - makepkg -si
 paru -Syu
 
-paru -S --needed base-devel brave-bin btop curl discover e2fsprogs elisa fakeroot fastfetch ffmpeg ffmpeg4 flatpak gimp gst-plugin-pipewire gst-plugins-bad gst-plugins-bad-libs gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly gstreamer gwenview gzip haruna isoimagewriter kalk kitty ktorrent linux-zen linux-zen-headers nano noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g onlyoffice-bin partitionmanager pipewire-alsa pipewire-jack pipewire-pulse protonplus qemu-full spectacle steam unrar unzip virt-manager wget wireplumber yt-dlp zen-browser-bin zsh
+paru -S --needed brave-bin gradia onlyoffice-bin protonplus vesktop-bin zen-browser-bin
 
 paru -R htop #vim
 ```
 
 #   flatpak
 ```
-flatpak install flathub com.github.tchx84.Flatseal com.usebottles.bottles com.obsproject.Studio com.obsproject.Studio.Plugin.AitumMultistream com.obsproject.Studio.Plugin.GStreamerVaapi com.obsproject.Studio.Plugin.Gstreamer com.obsproject.Studio.Plugin.OBSVkCapture dev.vencord.Vesktop org.prismlauncher.PrismLauncher
+flatpak install flathub com.github.tchx84.Flatseal com.usebottles.bottles com.obsproject.Studio com.obsproject.Studio.Plugin.AitumMultistream com.obsproject.Studio.Plugin.GStreamerVaapi com.obsproject.Studio.Plugin.Gstreamer com.obsproject.Studio.Plugin.OBSVkCapture org.prismlauncher.PrismLauncher
 ```
