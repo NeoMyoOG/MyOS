@@ -1,59 +1,32 @@
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": {
-    "type": "raw",
-    "source": "~/.config/fastfetch/xenia.sixel",
-    "padding": {
-      "right": 35,
-      "top": 3
-    }
-  },
-  "general": {
-    "multithreading": true
-  },
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "display": {
     "separator": "➜   "
   },
   "modules": [
-    "break",
     {
       "type": "title",
-      "format": "                  MyOS"
+      "format": "                  {8}"
     },
     {
       "type": "custom",
-      "format": "┌─────────────────────────────────────┐" // `\u001b` is `\033`, or `\e`
+      "format": "┌────────────────────────────────────┐" // `\u001b` is `\033`, or `\e`
     },
     {
       "key": "     ",
       "keyColor": "green",
-      "type": "os"
+      "type": "title",
+      "format": "MyOS (Arch Based)"
     },
     {
       "key": "     ",
-      "keyColor": "blue",
-      "type": "kernel"
-    },
-    {
-      "key": "  󰅐   ",
       "keyColor": "green",
-      "type": "uptime"
-    },
-    {
-      "key": "     ",
-      "keyColor": "cyan",
-      "type": "packages",
-      "format": "{} (pkgs)"
+      "type": "kernel"
     },
     {
       "key": "     ",
       "keyColor": "blue",
       "type": "de"
-    },
-    {
-      "key": "     ",
-      "keyColor": "green",
-      "type": "shell"
     },
     {
       "key": "  󰻠   ",
@@ -62,28 +35,23 @@
       "format": "{1}"
     },
     {
-    "type": "disk",
-    "format": "{days}d",
-    "key": "     ",
-    "folders": "/",
-    "keyColor": "35"
-    },
-    {
       "key": "  󰑭   ",
       "keyColor": "blue",
       "type": "memory"
     },
     {
       "type": "custom",
-      "format": "└─────────────────────────────────────┘" // `\u001b` is `\033`, or `\e`
+      "format": "└────────────────────────────────────┘" // `\u001b` is `\033`, or `\e`
     },
+    "break",
     {
       "type": "colors",
-      "paddingLeft": 12,
+      "paddingLeft": 13,
       "symbol": "circle",
       "block": {
-        "width": 8
+        "width": 10
       }
     }
   ]
 }
+
