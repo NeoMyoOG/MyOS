@@ -115,6 +115,9 @@ paru -Syu
 paru -S --needed brave-bin gradia onlyoffice-bin protonplus vesktop-bin zen-browser-bin
 
 paru -R htop #vim
+
+Debian: apt install ark btop curl deskflow e2fsprogs elisa fakeroot fastfetch ffmpeg flatpak gimp gwenview haruna isoimagewriter kalk kdenlive kitty ktorrent krita nano fonts-noto fonts-noto-cjk fonts-noto-cjk-extra fonts-noto-color-emoji fonts-noto-extra ntfs-3g okular partitionmanager pipewire-alsa pipewire-jack pipewire-pulse kde-spectacle steam unrar unzip virt-manager wireplumber yt-dlp zsh
+
 ```
 
 #   flatpak
