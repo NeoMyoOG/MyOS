@@ -105,7 +105,7 @@ Map:                Google Maps
 
 #   Pacman
 ```
-sudo pacman -S --needed ark audiotube base-devel btop curl deskflow discord e2fsprogs elisa fakeroot fastfetch ffmpeg ffmpeg4.4 flatpak gimp gst-plugin-pipewire gst-plugins-bad gst-plugins-bad-libs gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly gstreamer gwenview haruna isoimagewriter kalk kdenlive kitty ktorrent krita linux-headers nano noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g okular partitionmanager pipewire-alsa pipewire-jack pipewire-pulse qemu-full spectacle steam unrar unzip virt-manager wget wireplumber yt-dlp zsh
+sudo pacman -S --needed ark audiotube base-devel btop bzip2 curl deskflow discord e2fsprogs elisa fakeroot fastfetch ffmpeg ffmpeg4.4 flatpak gimp git gst-plugin-pipewire gst-plugins-bad gst-plugins-bad-libs gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-ugly gstreamer gwenview gzip haruna isoimagewriter kalk kdeconnect kdenlive kitty krita ktorrent linux-headers nano noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ntfs-3g okular partitionmanager pipewire-alsa pipewire-jack pipewire-pulse qemu-full spectacle steam unrar unzip virt-manager wget wireplumber yt-dlp zsh
 
     - git clone https://aur.archlinux.org/paru-bin.git
     - cd paru-bin/
@@ -116,11 +116,14 @@ paru -S --needed brave-bin gradia onlyoffice-bin protonplus vesktop-bin zen-brow
 
 paru -R htop #vim
 
-Debian: apt install ark btop curl deskflow e2fsprogs elisa fakeroot fastfetch ffmpeg flatpak gimp gwenview haruna isoimagewriter kalk kdenlive kitty ktorrent krita nano fonts-noto fonts-noto-cjk fonts-noto-cjk-extra fonts-noto-color-emoji fonts-noto-extra ntfs-3g okular partitionmanager pipewire-alsa pipewire-jack pipewire-pulse kde-spectacle steam unrar unzip virt-manager wireplumber yt-dlp zsh
+Debian: 
 
+apt install ark btop bzip2 curl deskflow e2fsprogs elisa falkon fakeroot fastfetch ffmpeg flatpak gimp git gwenview gzip haruna isoimagewriter kalk kdeconnect kdenlive kitty krita ktorrent linux-headers-amd64 nano fonts-noto fonts-noto-cjk fonts-noto-cjk-extra fonts-noto-color-emoji fonts-noto-extra ntfs-3g okular partitionmanager pipewire-alsa pipewire-jack pipewire-pulse qemu-system qemu-user kde-spectacle unrar unzip virt-manager wget wireplumber yt-dlp zsh
+
+flatpak install com.brave.Browser com.discordapp.Discord org.onlyoffice.desktopeditors com.vysp3r.ProtonPlus com.valvesoftware.Steam  dev.vencord.Vesktop app.zen_browser.zen
 ```
 
 #   flatpak
 ```
-flatpak install flathub com.github.tchx84.Flatseal com.usebottles.bottles com.obsproject.Studio com.obsproject.Studio.Plugin.AitumMultistream com.obsproject.Studio.Plugin.GStreamerVaapi com.obsproject.Studio.Plugin.Gstreamer com.obsproject.Studio.Plugin.OBSVkCapture org.prismlauncher.PrismLauncher
+flatpak install flathub com.github.tchx84.Flatseal com.usebottles.bottles com.obsproject.Studio com.obsproject.Studio.Plugin.AitumMultistream com.obsproject.Studio.Plugin.GStreamerVaapi com.obsproject.Studio.Plugin.Gstreamer com.obsproject.Studio.Plugin.OBSVkCapture com.rustdesk.RustDesk io.github.shiftey.Desktop  org.prismlauncher.PrismLauncher org.signal.Signal
 ```
