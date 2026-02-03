@@ -118,7 +118,7 @@ paru -R htop #vim
 
 Debian: 
 
-apt install ark btop bzip2 curl deskflow e2fsprogs elisa falkon fakeroot fastfetch ffmpeg flatpak gimp git gwenview gzip haruna isoimagewriter kalk kdeconnect kdenlive kitty krita ktorrent linux-headers-amd64 nano fonts-noto fonts-noto-cjk fonts-noto-cjk-extra fonts-noto-color-emoji fonts-noto-extra ntfs-3g okular partitionmanager pipewire-alsa pipewire-jack pipewire-pulse qemu-system qemu-user kde-spectacle unrar unzip virt-manager wget wireplumber yt-dlp zsh
+apt install ark btop bzip2 curl deskflow e2fsprogs elisa falkon fakeroot fastfetch ffmpeg flatpak gimp git gwenview gzip haruna isoimagewriter kalk kdeconnect kdenlive kitty krita ktorrent linux-headers-amd64 nano fonts-noto fonts-noto-cjk fonts-noto-cjk-extra fonts-noto-color-emoji fonts-noto-extra ntfs-3g okular partitionmanager pipewire-alsa pipewire-jack pipewire-pulse qemu-system qemu-user kde-spectacle unrar-free unzip virt-manager wget wireplumber yt-dlp zsh
 
 flatpak install com.brave.Browser com.discordapp.Discord org.onlyoffice.desktopeditors com.vysp3r.ProtonPlus com.valvesoftware.Steam  dev.vencord.Vesktop app.zen_browser.zen
 ```
